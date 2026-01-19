@@ -60,6 +60,7 @@ nav {
     color: #ffffff;
     line-height: 84px;
     font-style: bold;
+    text-transform: capitalize;
 }
 .green-text{
     color:#30B868;
@@ -121,7 +122,8 @@ nav {
     font-weight: 700;
     color: #001931;
     line-height: 2;
-    padding-top: 50px
+    padding-top: 50px;
+    text-transform: capitalize;
 }
 
 .card img{
@@ -143,5 +145,55 @@ nav {
     font-weight: 600;
     color: #001931;
     margin: 24px 0;
+    text-transform: capitalize;
 }
+
+#second-brain-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+#second-brain-section h4{
+    font-size: 16px;
+    font-weight: 500;
+    color:#469165;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+#second-brain-section h1{
+    font-size: 48px;
+    font-weight: 700;
+    color:#001931;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+#second-brain-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+    padding: 24px 0;
+}
+
+#second-brain-section ul li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #303030;
+    line-height: 20px;
+    list-style: none;
+    padding: 8px 0;
+}
+
+#second-brain-section ul li img{
+    margin-bottom:-4px;
+}
+
 
