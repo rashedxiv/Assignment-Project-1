@@ -94,3 +94,54 @@ nav {
     font-size: 16px;
     margin-left: 16px;
 }
+
+#notes-section{
+    width: 70%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.cards-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 64px;
+}
+
+#notes-section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+
+#notes-section h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    line-height: 2;
+    padding-top: 50px
+}
+
+.card img{
+    background-color: #F95555;
+    padding: 16px;
+    border-radius: 1000px;
+}
+
+.card {
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px #0000000F;
+
+    
+}
+
+.card h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin: 24px 0;
+}
+
