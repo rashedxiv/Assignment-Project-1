@@ -135,9 +135,7 @@ nav {
 .card {
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 0px 0px 8px 0px #0000000F;
-
-    
+    box-shadow: 0px 0px 8px 0px #0000000F;    
 }
 
 .card h2{
@@ -193,7 +191,7 @@ nav {
 }
 
 #second-brain-section ul li img{
-    margin-bottom:-4px;
+    vertical-align: middle;
 }
 
 #early-access-section{
@@ -224,4 +222,62 @@ nav {
     margin: 0 auto;
     background-color: #F7F6F2;
     padding: 80px 40px;
+}
+
+footer{
+    background-color: #001931;
+}
+
+#footer-section{
+    width: 70%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    
+}
+
+#footer-section p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer-bottom{
+    width: 70%;
+    max-width: 1360px;
+    margin: 0 auto;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+.footer-bottom p{
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-top: 1px solid #E5E7EB;
+}
+
+.btn img{
+    vertical-align: middle;
+}
+
+.social-icons i{
+    color: white;
+    border-radius: 1000px;
+    padding-top: 16px;
+}
+
+.banner-btn-top img{
+    vertical-align: middle;
+    
+}
+
+.btn-see-how img{
+    vertical-align: middle;
+    height: 18px;
 }
