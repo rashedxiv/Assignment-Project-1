@@ -281,3 +281,16 @@ footer{
     vertical-align: middle;
     height: 18px;
 }
+
+.btn:hover{
+    background-color: #88E788;
+    color: black;
+}
+.banner-btn-top:hover{
+    background-color: #b5dfc8;
+}
+
+.btn-see-how:hover{
+    background-color: #469165;
+    
+}
