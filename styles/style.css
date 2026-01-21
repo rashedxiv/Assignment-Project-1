@@ -42,14 +42,14 @@ nav {
 }
 
 #banner-section{
+    background-image: url("/assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 70px 120px 134px 120px;
-    background-image: url('/assets/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 674px;
     gap: 32px;
 }
@@ -291,6 +291,5 @@ footer{
 }
 
 .btn-see-how:hover{
-    background-color: #469165;
-    
+    background-color: #469165; 
 }
